@@ -107,7 +107,7 @@ either direction.
 One line:
 
 ```bash
-npx skills add JuliusBrussee/cavekit
+npx skills add JuliusBrussee/cavekit@v4.0.1
 ```
 
 Or via the Claude Code marketplace:

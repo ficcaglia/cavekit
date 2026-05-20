@@ -37,7 +37,7 @@ That's the whole pitch.
 One line, via the `skills` CLI:
 
 ```bash
-npx skills add JuliusBrussee/cavekit
+npx skills add JuliusBrussee/cavekit@v4.0.1
 ```
 
 Installs five skills into `~/.claude/skills/`: `spec`, `build`, `check`
@@ -45,6 +45,11 @@ Installs five skills into `~/.claude/skills/`: `spec`, `build`, `check`
 activates each when its trigger context matches — e.g. "write a spec
 for…" invokes `spec`, "build the next task" invokes `build`. Claude Code
 picks them up on next launch.
+
+The `@v4.0.1` ref pins the install to a reviewed release rather than
+whatever happens to be at HEAD. Bump the tag to upgrade; check
+[releases](https://github.com/juliusbrussee/cavekit/releases) for the
+current one.
 
 Or via the Claude Code marketplace (also adds `/ck:spec`, `/ck:build`,
 `/ck:check` slash commands):
